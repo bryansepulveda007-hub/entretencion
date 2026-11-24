@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="800" viewBox="0 0 1200 800">
+  <title>Lollapalooza Chile — afiche vectorial editable</title>
+  <desc>Afiche vectorial de festival con montañas, sol, escenario, luces y público. Los elementos son formas y textos SVG editables.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#25005b"/><stop offset=".48" stop-color="#8b16b8"/><stop offset="1" stop-color="#ff4c91"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff16a"/><stop offset="1" stop-color="#ff9b38"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff62d2" stop-opacity=".75"/><stop offset="1" stop-color="#ff62d2" stop-opacity="0"/></linearGradient>
+    <pattern id="dots" width="42" height="42" patternUnits="userSpaceOnUse"><circle cx="5" cy="7" r="2" fill="#fff" opacity=".55"/></pattern>
+  </defs>
+  <!-- Fondo -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect width="1200" height="470" fill="url(#dots)"/>
+  <circle cx="600" cy="270" r="205" fill="url(#sun)"/>
+  <!-- Destellos -->
+  <g fill="#fff"><path d="M140 85l10 28 28 10-28 10-10 28-10-28-28-10 28-10z"/><path d="M1030 100l8 22 22 8-22 8-8 22-8-22-22-8 22-8z"/><path d="M920 265l7 19 19 7-19 7-7 19-7-19-19-7 19-7z"/></g>
+  <path d="M0 350L155 225 265 310 420 170 565 315 730 180 875 315 1010 220 1200 355V510H0Z" fill="#34106f"/>
+  <path d="M155 225l110 85 155-140 145 145-92-62-53 22-54-54-49 42-52-25-55 35z" fill="#f5d9ff" opacity=".95"/>
+  <path d="M730 180l145 135-88-48-55 27-60-45-48 31z" fill="#d9b7ff"/>
+  <!-- Rayos decorativos -->
+  <g fill="none" stroke-width="9" stroke-linecap="round" opacity=".9"><path d="M80 205L250 390" stroke="#00e7e7"/><path d="M1120 205L950 390" stroke="#ffe34f"/><path d="M45 390L210 450" stroke="#ff4ab2"/><path d="M1155 390L990 450" stroke="#00e7e7"/></g>
+  <!-- Logotipo tipográfico editable -->
+  <g text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-weight="900">
+    <text x="600" y="355" font-size="132" letter-spacing="-7" fill="#fff" stroke="#160027" stroke-width="18" stroke-linejoin="round" paint-order="stroke">LOLLA</text>
+    <text x="600" y="465" font-size="132" letter-spacing="-8" fill="#fff" stroke="#160027" stroke-width="18" stroke-linejoin="round" paint-order="stroke">PALOOZA</text>
+    <text x="1000" y="475" font-size="35" letter-spacing="5" fill="#fff">CHILE</text>
+  </g>
+  <text x="600" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="bold" letter-spacing="8" fill="#fff">MÚSICA · ARTE · CULTURA</text>
+  <!-- Escenario -->
+  <path d="M300 800V565L600 485 900 565V800Z" fill="#17002f"/>
+  <path d="M340 570L600 500 860 570Z" fill="#090018" stroke="#ff42b8" stroke-width="5"/>
+  <rect x="365" y="575" width="470" height="185" fill="#32005c" stroke="#a72cff" stroke-width="7"/>
+  <rect x="405" y="605" width="390" height="135" fill="#130026"/>
+  <!-- Torres y pantallas -->
+  <g stroke="#10001f" stroke-width="12" fill="none"><path d="M255 800V545h65v255M880 800V545h65v255"/><path d="M255 600h65M255 660h65M255 720h65M880 600h65M880 660h65M880 720h65"/><path d="M255 545l65 255M320 545l-65 255M880 545l65 255M945 545l-65 255"/></g>
+  <rect x="280" y="625" width="45" height="110" rx="5" fill="#ff238e" stroke="#160027" stroke-width="7"/>
+  <rect x="875" y="625" width="45" height="110" rx="5" fill="#ff238e" stroke="#160027" stroke-width="7"/>
+  <g fill="#fff"><path d="M302 650l8 17 18 2-14 12 4 18-16-9-16 9 4-18-14-12 18-2z"/><path d="M897 650l8 17 18 2-14 12 4 18-16-9-16 9 4-18-14-12 18-2z"/></g>
+  <!-- Focos y haces -->
+  <g fill="url(#beam)"><path d="M420 610L350 800H500Z"/><path d="M485 605L455 800H585Z"/><path d="M550 600L545 800H665Z"/><path d="M615 600L615 800H735Z"/><path d="M680 605L665 800H795Z"/><path d="M745 610L700 800H850Z"/></g>
+  <g fill="#fff"><circle cx="420" cy="610" r="9"/><circle cx="485" cy="605" r="9"/><circle cx="550" cy="600" r="9"/><circle cx="615" cy="600" r="9"/><circle cx="680" cy="605" r="9"/><circle cx="745" cy="610" r="9"/></g>
+  <!-- Público: siluetas vectoriales -->
+  <path d="M0 760Q70 700 140 760T280 760T420 760T560 760T700 760T840 760T980 760T1120 760T1260 760V800H0Z" fill="#090018"/>
+  <g fill="#090018" stroke="#090018" stroke-width="15" stroke-linecap="round">
+    <circle cx="75" cy="700" r="25"/><path d="M75 730v70M75 750l-42-55M75 750l45-75"/>
+    <circle cx="185" cy="720" r="22"/><path d="M185 745v55M185 755l-35-35M185 755l32-55"/>
+    <circle cx="330" cy="710" r="24"/><path d="M330 738v62M330 755l-35-55M330 755l40-35"/>
+    <circle cx="465" cy="725" r="22"/><path d="M465 750v50M465 760l-35-35M465 760l35-65"/>
+    <circle cx="600" cy="700" r="27"/><path d="M600 730v70M600 750l-45-60M600 750l45-60"/>
+    <circle cx="745" cy="720" r="23"/><path d="M745 745v55M745 755l-35-55M745 755l40-35"/>
+    <circle cx="880" cy="705" r="25"/><path d="M880 733v67M880 750l-40-45M880 750l42-60"/>
+    <circle cx="1030" cy="720" r="23"/><path d="M1030 745v55M1030 755l-35-55M1030 755l40-35"/>
+    <circle cx="1140" cy="700" r="26"/><path d="M1140 730v70M1140 750l-42-60M1140 750l42-55"/>
+  </g>
+  <g fill="#ff3fae"><path d="M0 785q60-45 120 0v15H0z"/><path d="M1080 785q60-45 120 0v15h-120z"/></g>
+  <text x="600" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" letter-spacing="9" fill="#fff">SANTIAGO · CHILE</text>
+</svg>
